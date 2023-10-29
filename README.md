@@ -20,6 +20,8 @@ yarn install
 bun install
 ```
 
+
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
@@ -73,3 +75,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Resources
+
+* https://nuxt.com/docs/getting-started/seo-meta 
