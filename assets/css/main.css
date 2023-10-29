@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1 {
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+}
+
+
+.logo {
+    max-width: 120px;
+}
