@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <h1>bro?</h1>
   </div>
 </template>

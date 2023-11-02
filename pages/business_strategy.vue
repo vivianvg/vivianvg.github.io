@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <h1>Business Strategy</h1>
   </div>
 </template>

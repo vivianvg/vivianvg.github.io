@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <h1>Team</h1>
   </div>
 </template>

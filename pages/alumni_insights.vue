@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <h1>Alumni Insights</h1>
   </div>
 </template>

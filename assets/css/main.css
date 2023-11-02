@@ -56,10 +56,26 @@ a:hover:after { transform: scaleX(1); }
 
 /* Custom class styling*/
 .logo {
-    max-width: 8rem;
+    max-width: 7rem;
 }
+.icon{
+    max-width: 1.6em;
+    vertical-align: top;
+}
+.icon-link{
+    color: var(--l-text);
+}
+.icon-link:hover{
+    color: var(--l-maroon);
+}
+
+
 .header {
     margin-top: 2rem;
+}
+.sidemenu{
+    display: flex; 
+    justify-content: flex-end;
 }
 .navigation{
     display: flex; 

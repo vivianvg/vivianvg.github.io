@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <h1>Technology</h1>
   </div>
 </template>
