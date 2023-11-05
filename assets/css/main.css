@@ -99,4 +99,9 @@ a {
 }
 
 
+/* article component styling */
+.article-cover {
+    max-width: 12rem;
+}
+
 

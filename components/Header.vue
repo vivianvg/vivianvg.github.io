@@ -4,7 +4,7 @@
       <!-- Side menu -->
       <div class="col-1 sidemenu">
         <div id="toggle_sidemenu">
-          <a href="#" class="icon-link" @click="openSidebar()">
+          <a href="#" class="icon-link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -26,7 +26,9 @@
       </div>
       <!-- Logo -->
       <div class="col-2">
-        <img src="~/assets/images/logo/wbr-logo.svg" class="logo" />
+        <a class="no-style" href="/"
+          ><img src="~/assets/images/logo/wbr-logo.svg" class="logo"
+        /></a>
       </div>
       <!-- Navigation -->
       <div class="col-8 navigation">
@@ -57,6 +59,10 @@ export default {
 <style scoped>
 .hidden {
   visibility: hidden;
+}
+
+.no-style:after {
+  all: unset;
 }
 
 a:after {

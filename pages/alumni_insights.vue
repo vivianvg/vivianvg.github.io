@@ -4,7 +4,20 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <h2>ALUMNI INSIGHTS</h2>
+        <div>
+          <h2>ALUMNI INSIGHTS</h2>
+        </div>
+
+        <div class="article-list">
+          <Article
+            cover-path="/assets/fall-2022/covers/crisis-cover.png"
+            title=""
+            type="Alumni Insights"
+            term="F22"
+            authors=""
+            creatives=""
+          />
+        </div>
       </div>
       <div class="col-1"></div>
     </div>
