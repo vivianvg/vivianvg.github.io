@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <Header />
-    <h1>Business Strategy</h1>
+  <Header />
+  <div class="container-fluid header p-0 overflow-hidden">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <h2>BUSINESS STRATEGY</h2>
+      </div>
+      <div class="col-1"></div>
+    </div>
   </div>
 </template>
 

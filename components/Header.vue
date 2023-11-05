@@ -3,8 +3,8 @@
     <div class="row">
       <!-- Side menu -->
       <div class="col-1 sidemenu">
-        <div>
-          <a href="#" class="icon-link">
+        <div id="toggle_sidemenu">
+          <a href="#" class="icon-link" @click="openSidebar()">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -39,3 +39,56 @@
     </div>
   </div>
 </template>
+
+<script>
+import { sidebar } from "../store.js";
+export default {
+  name: "Sidebar",
+
+  methods: {
+    openSidebar() {
+      sidebar.display = true;
+      console.log(sidebar.display);
+    },
+  },
+};
+</script>
+
+<style scoped>
+.hidden {
+  visibility: hidden;
+}
+
+a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px var(--l-primary-accent);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: left;
+}
+a:hover:after {
+  transform: scaleX(1);
+}
+
+.header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.sidemenu {
+  display: flex;
+  justify-content: flex-end;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  column-gap: 2.8rem;
+}
+.navigation * {
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--l-text);
+}
+</style>
