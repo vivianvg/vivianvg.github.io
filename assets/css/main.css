@@ -49,6 +49,10 @@ a {
     text-decoration: none;
 }
 
+.text{
+    font-size: 1.1rem;
+}
+
 /* Custom class styling*/
 .logo {
     max-width: 7rem;

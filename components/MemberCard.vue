@@ -10,6 +10,7 @@
 <script setup>
 const props = defineProps({
   name: String,
+  role: String,
 });
 </script>
 
@@ -18,9 +19,16 @@ const props = defineProps({
   display: flex;
   flex-wrap: wrap;
   max-width: 10rem;
-  margin: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .member-name {
   text-align: center;
+  margin: auto;
+}
+.member-headshot {
+  margin-bottom: 0.5rem;
 }
 </style>
