@@ -1,9 +1,8 @@
 <template v-show="displaySidebar">
-  <div class="sidebar-backdrop"></div>
+  <div @click="sidebarToggle()" class="sidebar-backdrop"></div>
   <div class="sidebar">
-    <div>
-      <button @click="closeSidebar()">hello</button>
-      <a id="close-sidebar" href="#" @click="closeSidebar()"
+    <div id="close-sidebar-button">
+      <a id="close-sidebar" href="#" @click="sidebarToggle()"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -124,22 +123,14 @@
 // import data from store
 import { sidebar } from "../store.js";
 export default {
-  name: "Sidebar",
-
-  data() {
-    return {
-      displaySidebar: false,
-    };
-  },
-  computed: {
-    displaySidebar() {
-      return sidebar.display;
+  props: {
+    displaySidebar: {
+      type: Boolean,
+      default: false,
     },
-  },
-  methods: {
-    closeSidebar() {
-      sidebar.display = false;
-      console.log(sidebar.display);
+    sidebarToggle: {
+      type: Function,
+      default: null,
     },
   },
 };
@@ -169,5 +160,9 @@ a:hover {
 .socials {
   display: flex;
   column-gap: 1rem;
+}
+
+#close-sidebar-button {
+  margin-top: 0rem;
 }
 </style>

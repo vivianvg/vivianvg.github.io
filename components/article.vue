@@ -1,11 +1,13 @@
 <template>
-  <div class="article-cover">
-    <slot></slot>
+  <div class="article-card">
+    <div class="article-cover">
+      <slot></slot>
+    </div>
+    <div class="article-type">{{ type }}</div>
+    <div class="article-title">{{ title }}</div>
+    <div class="article-authors">{{ authors }}</div>
+    <div class="article-creatives">{{ creatives }}</div>
   </div>
-  <div class="article-type">{{ type }}</div>
-  <div class="article-title">{{ title }}</div>
-  <div class="article-authors">{{ authors }}</div>
-  <div class="article-creatives">{{ creatives }}</div>
 </template>
 
 <script setup>
@@ -34,11 +36,22 @@ import coverSrc from "@/assets/articles/fall-2022/covers/dd-cover.png";
 </script>
 
 <style scoped>
-body {
-  background-color: black;
+.article-cover {
+  width: 100%;
+  min-width: 12rem;
 }
 
-.article-cover {
+.article-metadata {
+  color: var(--l-dark-blue);
+  font-weight: 600;
+}
 
+.article-link {
+  text-decoration: none;
+  color: var(--l-text);
+}
+
+.article-card {
+  max-width: 16rem;
 }
 </style>

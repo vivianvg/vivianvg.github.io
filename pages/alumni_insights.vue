@@ -5,7 +5,7 @@
       <div class="col-1"></div>
       <div class="col-10">
         <div>
-          <h2>ALUMNI INSIGHTS</h2>
+          <h2 class="margin-bottom">ALUMNI INSIGHTS</h2>
         </div>
 
         <div class="article-list">

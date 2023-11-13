@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <h2>Recent Posts</h2>
+        <h2 class="margin-bottom">Recent Posts</h2>
       </div>
       <div class="col-1"></div>
     </div>

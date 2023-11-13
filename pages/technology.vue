@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <h2>TECHNOLOGY</h2>
+        <h2 class="margin-bottom">TECHNOLOGY</h2>
       </div>
       <div class="col-1"></div>
     </div>

@@ -1,7 +1,15 @@
 <template>
   <div>
     <Header />
-    <h1>About</h1>
+    <div class="container-fluid header p-0 overflow-hidden">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <h2 class="margin-bottom">About</h2>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
   </div>
 </template>
 
