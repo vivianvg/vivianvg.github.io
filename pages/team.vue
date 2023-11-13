@@ -25,7 +25,10 @@
           <div v-else-if="year === 2022" class="team 2022">2022</div>
           <div v-else-if="year === 2021" class="team 2021">2021</div>
           <div v-else></div> -->
-          >
+          <div><h3>Research Team</h3></div>
+          <div><h3>Editorial Team</h3></div>
+          <div><h3>Creative Team</h3></div>
+          <div><h3>Leadership Team</h3></div>
         </div>
         <div class="col-1"></div>
       </div>
