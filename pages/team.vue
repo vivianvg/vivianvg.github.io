@@ -25,10 +25,88 @@
           <div v-else-if="year === 2022" class="team 2022">2022</div>
           <div v-else-if="year === 2021" class="team 2021">2021</div>
           <div v-else></div> -->
-          <div><h3>Research Team</h3></div>
-          <div><h3>Editorial Team</h3></div>
-          <div><h3>Creative Team</h3></div>
-          <div><h3>Leadership Team</h3></div>
+          <div class="teams">
+            <div>
+              <h3>Research Team</h3>
+              <div class="row">
+                <MemberCard name="Kabir Singh Bajwa"
+                  ><img src="@/assets/images/team/2023/research/r1.png"
+                /></MemberCard>
+                <MemberCard name="Sofia Suleman"
+                  ><img src="@/assets/images/team/2023/research/r6.png"
+                /></MemberCard>
+                <MemberCard name="Gurpartap Thap"
+                  ><img src="@/assets/images/team/2023/research/r2.png"
+                /></MemberCard>
+                <MemberCard name="Leo Stetsyuk"
+                  ><img src="@/assets/images/team/2023/research/r5.png"
+                /></MemberCard>
+                <MemberCard name="Siddhant Kapur"
+                  ><img src="@/assets/images/team/2023/research/r8.png"
+                /></MemberCard>
+                <MemberCard name="Arpit Sandhu"
+                  ><img src="@/assets/images/team/2023/research/r3.png"
+                /></MemberCard>
+                <MemberCard name="Agraj Joshi"
+                  ><img src="@/assets/images/team/2023/research/r7.png"
+                /></MemberCard>
+              </div>
+            </div>
+            <div>
+              <h3>Editorial Team</h3>
+              <div class="row">
+                <MemberCard name="Alex Zhu"
+                  ><img src="@/assets/images/team/2023/editorial/member.png"
+                /></MemberCard>
+                <MemberCard name="Ali Ravjani"
+                  ><img src="@/assets/images/team/2023/editorial/e1.png"
+                /></MemberCard>
+                <MemberCard name="Ansh Farmah"
+                  ><img src="@/assets/images/team/2023/editorial/e2.png"
+                /></MemberCard>
+                <MemberCard name="Katarina Miovcic"
+                  ><img src="@/assets/images/team/2023/editorial/e3.png"
+                /></MemberCard>
+                <MemberCard name="Manu Krishna"
+                  ><img src="@/assets/images/team/2023/editorial/e4.png"
+                /></MemberCard>
+                <MemberCard name="Sophie Hsieh"
+                  ><img src="@/assets/images/team/2023/editorial/e5.png"
+                /></MemberCard>
+              </div>
+            </div>
+            <div>
+              <h3>Creative Team</h3>
+              <div class="row">
+                <MemberCard name="Viviana Basurto"
+                  ><img src="@/assets/images/team/2023/creative/c1.png"
+                /></MemberCard>
+                <MemberCard name="Nirva Bharwada"
+                  ><img src="@/assets/images/team/2023/creative/c2.png"
+                /></MemberCard>
+                <MemberCard name="Pramiya Arulraj"
+                  ><img src="@/assets/images/team/2023/creative/c3.png"
+                /></MemberCard>
+                <MemberCard name="Yukttha Siva"
+                  ><img src="@/assets/images/team/2023/creative/c4.png"
+                /></MemberCard>
+              </div>
+            </div>
+            <div>
+              <h3>Leadership Team</h3>
+              <div class="row">
+                <MemberCard name="Luka Pavlesen"
+                  ><img src="@/assets/images/team/2023/leadership/l1.png"
+                /></MemberCard>
+                <MemberCard name="Vivian Guo"
+                  ><img src="@/assets/images/team/2023/leadership/l2.png"
+                /></MemberCard>
+                <MemberCard name="Devena Mohabir"
+                  ><img src="@/assets/images/team/2023/leadership/l3.png"
+                /></MemberCard>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-1"></div>
       </div>
@@ -46,4 +124,9 @@ useSeoMeta({
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.teams > div {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+</style>
