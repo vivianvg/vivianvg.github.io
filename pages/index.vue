@@ -5,7 +5,19 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <h2 class="margin-bottom">Recent Posts</h2>
+        <div class="row"><h2 class="margin-bottom">Recent Posts</h2></div>
+        <div class="row">
+          <ArticleCardV
+            id=""
+            coverPath=""
+            title=""
+            type=""
+            term=""
+            authors=""
+            creatives=""
+            blurb=""
+          />
+        </div>
       </div>
       <div class="col-1"></div>
     </div>

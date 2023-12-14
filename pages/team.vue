@@ -73,6 +73,9 @@
                 <MemberCard name="Alex Zhu"
                   ><img src="@/assets/images/team/2023/editorial/e6.png"
                 /></MemberCard>
+                <MemberCard name="Arnav Sheth"
+                  ><img src="@/assets/images/team/2023/editorial/e7.png"
+                /></MemberCard>
               </div>
             </div>
             <div>
@@ -124,6 +127,7 @@
       <div class="col-1"></div>
     </div>
   </div>
+  <Footer />
 </template>
 
 <script setup>

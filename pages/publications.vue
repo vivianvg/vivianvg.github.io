@@ -4,7 +4,19 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <h2 class="margin-bottom">PUBLICATIONS</h2>
+        <div class="row"><h2 class="margin-bottom">PUBLICATIONS</h2></div>
+        <div class="row">
+          <ArticleCardV
+            title="Dependency and Diversification: Keys to Success for Single Export Nations"
+            type="Business Strategy"
+            term="F23"
+            authors="Luka Pavlesen, Manu Krishna"
+            creatives="Viviana Basurto"
+            ><img
+              class="article-cover"
+              src="@/assets/articles/fall-2022/covers/dd-cover.png"
+          /></ArticleCardV>
+        </div>
       </div>
       <div class="col-1"></div>
     </div>

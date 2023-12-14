@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css',
   'bootstrap/dist/css/bootstrap.css',],
   router: {
-    base: '/vivianvg.github.io/'
+    base: '/'
  },
   target: 'static'
 })

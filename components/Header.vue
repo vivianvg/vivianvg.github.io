@@ -45,8 +45,8 @@
       </div>
       <!-- Navigation -->
       <div class="col-8 navigation display-on-large">
-        <NuxtLink to="/alumni_insights">ALUMNI INSIGHT</NuxtLink>
-        <NuxtLink to="/business_strategy">BUSINESS STRATEGY</NuxtLink>
+        <NuxtLink to="/alumni-insights">ALUMNI INSIGHT</NuxtLink>
+        <NuxtLink to="/business-strategy">BUSINESS STRATEGY</NuxtLink>
         <NuxtLink to="/entrepreneurship">ENTREPRENEURSHIP</NuxtLink>
         <NuxtLink to="/technology">TECHNOLOGY</NuxtLink>
       </div>
