@@ -4,7 +4,10 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css',
   'bootstrap/dist/css/bootstrap.css',],
   router: {
-    base: '/'
- },
-  target: 'static'
+    base: ''
+  },
+  app: {
+    buildAssetsDir: 'nuxt', 
+  },
+  target: 'static',
 })
