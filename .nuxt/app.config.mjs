@@ -4,7 +4,7 @@ import { defuFn } from 'C:/Users/Vivian/Documents/GitHub/vivianvg.github.io/node
 
 const inlineConfig = {
   "nuxt": {
-    "buildId": "38781d31-7c0a-4380-b945-895a42da44c1"
+    "buildId": "test"
   }
 }
 

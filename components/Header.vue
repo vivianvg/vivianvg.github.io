@@ -145,7 +145,7 @@ a:hover:after {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  column-gap: 2.4rem;
+  column-gap: 2.2rem;
 }
 .navigation * {
   font-weight: 600;
@@ -162,7 +162,7 @@ a:hover:after {
 }
 
 /* Media queries for navigation bar */
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   .navigation {
     display: none;
   }
@@ -183,12 +183,15 @@ a:hover:after {
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .navigation {
     display: flex;
   }
   .navigation-mobile {
     display: none;
+  }
+  .logo {
+    margin-left: 0;
   }
 }
 </style>

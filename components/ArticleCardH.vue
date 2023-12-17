@@ -78,4 +78,8 @@ const props = defineProps({
   color: var(--l-dark-blue);
   font-weight: 600;
 }
+
+/* media queries - set different col size proportions*/
+
+
 </style>
