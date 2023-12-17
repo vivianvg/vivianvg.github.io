@@ -39,86 +39,15 @@
           </div> -->
           <div class="teams col-8">
             <div>
-              <h3>Leadership Team</h3>
-              <div class="row">
-                <MemberCard name="Luka Pavlesen"
-                  ><img src="@/assets/images/team/2023/leadership/l1.png"
-                /></MemberCard>
-                <MemberCard name="Vivian Guo"
-                  ><img src="@/assets/images/team/2023/leadership/l2.png"
-                /></MemberCard>
-                <MemberCard name="Devena Mohabir"
-                  ><img src="@/assets/images/team/2023/leadership/l3.png"
-                /></MemberCard>
-              </div>
-            </div>
-            <div>
-              <h3>Editorial Team</h3>
-              <div class="row">
-                <MemberCard name="Ali Ravjani"
-                  ><img src="@/assets/images/team/2023/editorial/e1.png"
-                /></MemberCard>
-                <MemberCard name="Ansh Farmah"
-                  ><img src="@/assets/images/team/2023/editorial/e2.png"
-                /></MemberCard>
-                <MemberCard name="Katarina Miovcic"
-                  ><img src="@/assets/images/team/2023/editorial/e3.png"
-                /></MemberCard>
-                <MemberCard name="Manu Krishna"
-                  ><img src="@/assets/images/team/2023/editorial/e4.png"
-                /></MemberCard>
-                <MemberCard name="Sophie Hsieh"
-                  ><img src="@/assets/images/team/2023/editorial/e5.png"
-                /></MemberCard>
-                <MemberCard name="Alex Zhu"
-                  ><img src="@/assets/images/team/2023/editorial/e6.png"
-                /></MemberCard>
-                <MemberCard name="Arnav Sheth"
-                  ><img src="@/assets/images/team/2023/editorial/e7.png"
-                /></MemberCard>
-              </div>
-            </div>
-            <div>
-              <h3>Creative Team</h3>
-              <div class="row">
-                <MemberCard name="Viviana Basurto"
-                  ><img src="@/assets/images/team/2023/creative/c1.png"
-                /></MemberCard>
-                <MemberCard name="Nirva Bharwada"
-                  ><img src="@/assets/images/team/2023/creative/c2.png"
-                /></MemberCard>
-                <MemberCard name="Pramiya Arulraj"
-                  ><img src="@/assets/images/team/2023/creative/c3.png"
-                /></MemberCard>
-                <MemberCard name="Yukttha Siva"
-                  ><img src="@/assets/images/team/2023/creative/c4.png"
-                /></MemberCard>
-              </div>
-            </div>
-            <div>
-              <h3>Research Team</h3>
-              <div class="row">
-                <MemberCard name="Kabir Bajwa"
-                  ><img src="@/assets/images/team/2023/research/r1.png"
-                /></MemberCard>
-                <MemberCard name="Sofia Suleman"
-                  ><img src="@/assets/images/team/2023/research/r6.png"
-                /></MemberCard>
-                <MemberCard name="Gurpartap Thap"
-                  ><img src="@/assets/images/team/2023/research/r2.png"
-                /></MemberCard>
-                <MemberCard name="Leo Stetsyuk"
-                  ><img src="@/assets/images/team/2023/research/r5.png"
-                /></MemberCard>
-                <MemberCard name="Siddhant Kapur"
-                  ><img src="@/assets/images/team/2023/research/r8.png"
-                /></MemberCard>
-                <MemberCard name="Arpit Sandhu"
-                  ><img src="@/assets/images/team/2023/research/r3.png"
-                /></MemberCard>
-                <MemberCard name="Agraj Joshi"
-                  ><img src="@/assets/images/team/2023/research/r7.png"
-                /></MemberCard>
+              <div class="margin-top" v-for="subteam in full_team">
+                <h3>{{ subteam.subteam_name }}</h3>
+                <div class="row">
+                  <MemberCard
+                    v-for="member in subteam.subteam"
+                    :name="member.name"
+                    :headshot="member.headshot"
+                  ></MemberCard>
+                </div>
               </div>
             </div>
           </div>
@@ -131,6 +60,8 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+
 useSeoMeta({
   title: "Team",
   ogTitle: "Team",
@@ -138,6 +69,127 @@ useSeoMeta({
   ogDescription: "Waterloo Business Review Team",
   ogImage: "",
 });
+
+// consider something to replace the front with nuxt?
+
+const leadership_team = ref([
+  {
+    name: "Luka Pavlesen",
+    headshot: "nuxt/assets/images/team/2023/leadership/l1.png",
+  },
+  {
+    name: "Vivian Guo",
+    headshot: "nuxt/assets/images/team/2023/leadership/l2.png",
+  },
+  {
+    name: "Devena Mohabir",
+    headshot: "nuxt/assets/images/team/2023/leadership/l3.png",
+  },
+]);
+
+const research_team = ref([
+  {
+    name: "Kabir Bajwa",
+    headshot: "nuxt/assets/images/team/2023/research/r1.png",
+  },
+  {
+    name: "Sofia Suleman",
+    headshot: "nuxt/assets/images/team/2023/research/r6.png",
+  },
+  {
+    name: "Gurpartap Thap",
+    headshot: "nuxt/assets/images/team/2023/research/r2.png",
+  },
+  {
+    name: "Leo Stetsyuk",
+    headshot: "nuxt/assets/images/team/2023/research/r5.png",
+  },
+  {
+    name: "Siddhant Kapur",
+    headshot: "nuxt/assets/images/team/2023/research/r8.png",
+  },
+  {
+    name: "Arpit Sandhu",
+    headshot: "nuxt/assets/images/team/2023/research/r3.png",
+  },
+  {
+    name: "Agraj Joshi",
+    headshot: "nuxt/assets/images/team/2023/research/r7.png",
+  },
+  {
+    name: "Yukttha Siva",
+    headshot: "nuxt/assets/images/team/2023/creative/c4.png",
+  },
+]);
+
+const editorial_team = ref([
+  {
+    name: "Ali Ravjani",
+    headshot: "nuxt/assets/images/team/2023/editorial/e1.png",
+  },
+  {
+    name: "Ansh Farmah",
+    headshot: "nuxt/assets/images/team/2023/editorial/e2.png",
+  },
+  {
+    name: "Katarina Miovcic",
+    headshot: "nuxt/assets/images/team/2023/editorial/e3.png",
+  },
+  {
+    name: "Manu Krishna",
+    headshot: "nuxt/assets/images/team/2023/editorial/e4.png",
+  },
+  {
+    name: "Sophie Hsieh",
+    headshot: "nuxt/assets/images/team/2023/editorial/e5.png",
+  },
+  {
+    name: "Alex Zhu",
+    headshot: "nuxt/assets/images/team/2023/editorial/e6.png",
+  },
+  {
+    name: "Arnav Sheth",
+    headshot: "nuxt/assets/images/team/2023/editorial/e7.png",
+  },
+]);
+
+const creative_team = ref([
+  {
+    name: "Viviana Basurt",
+    headshot: "nuxt/assets/images/team/2023/creative/c1.png",
+  },
+  {
+    name: "Nirva Bharwada",
+    headshot: "nuxt/assets/images/team/2023/creative/c2.png",
+  },
+  {
+    name: "Pramiya Arulraj",
+    headshot: "nuxt/assets/images/team/2023/creative/c3.png",
+  },
+  {
+    name: "Yukttha Siva",
+    headshot: "nuxt/assets/images/team/2023/creative/c4.png",
+  },
+]);
+
+const full_team = ref([
+  {
+    subteam: leadership_team,
+    subteam_name: "Leadership",
+  },
+  {
+    subteam: editorial_team,
+    subteam_name: "Editorial",
+  },
+  {
+    subteam: creative_team,
+    subteam_name: "Creative",
+  },
+  {
+    subteam: research_team,
+    subteam_name: "Research",
+  },
+]);
 </script>
 
 <style lang="scss" scoped>

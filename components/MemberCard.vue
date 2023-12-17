@@ -1,7 +1,7 @@
 <template>
   <div class="member-card">
     <div class="row member-headshot">
-      <slot></slot>
+      <img :src="headshot" />
     </div>
     <div class="row member-name">{{ name }}</div>
   </div>
@@ -10,7 +10,7 @@
 <script setup>
 const props = defineProps({
   name: String,
-  role: String,
+  headshot: String,
 });
 </script>
 
