@@ -21,7 +21,7 @@
             </p>
           </div>
           <div>
-            <img class="image" src="@/assets/images/team/2023/full_team.jpg" />
+            <img class="image" src="/team/2023/full_team.jpg" />
           </div>
 
           <!-- <div class="tab-bar"></div>
@@ -75,100 +75,100 @@ useSeoMeta({
 const leadership_team = ref([
   {
     name: "Luka Pavlesen",
-    headshot: "nuxt/assets/images/team/2023/leadership/l1.png",
+    headshot: "team/2023/leadership/l1.png",
   },
   {
     name: "Vivian Guo",
-    headshot: "nuxt/assets/images/team/2023/leadership/l2.png",
+    headshot: "team/2023/leadership/l2.png",
   },
   {
     name: "Devena Mohabir",
-    headshot: "nuxt/assets/images/team/2023/leadership/l3.png",
+    headshot: "team/2023/leadership/l3.png",
   },
 ]);
 
 const research_team = ref([
   {
     name: "Kabir Bajwa",
-    headshot: "nuxt/assets/images/team/2023/research/r1.png",
+    headshot: "team/2023/research/r1.png",
   },
   {
     name: "Sofia Suleman",
-    headshot: "nuxt/assets/images/team/2023/research/r6.png",
+    headshot: "team/2023/research/r6.png",
   },
   {
     name: "Gurpartap Thap",
-    headshot: "nuxt/assets/images/team/2023/research/r2.png",
+    headshot: "team/2023/research/r2.png",
   },
   {
     name: "Leo Stetsyuk",
-    headshot: "nuxt/assets/images/team/2023/research/r5.png",
+    headshot: "team/2023/research/r5.png",
   },
   {
     name: "Siddhant Kapur",
-    headshot: "nuxt/assets/images/team/2023/research/r8.png",
+    headshot: "team/2023/research/r8.png",
   },
   {
     name: "Arpit Sandhu",
-    headshot: "nuxt/assets/images/team/2023/research/r3.png",
+    headshot: "team/2023/research/r3.png",
   },
   {
     name: "Agraj Joshi",
-    headshot: "nuxt/assets/images/team/2023/research/r7.png",
+    headshot: "team/2023/research/r7.png",
   },
   {
     name: "Yukttha Siva",
-    headshot: "nuxt/assets/images/team/2023/creative/c4.png",
+    headshot: "team/2023/creative/c4.png",
   },
 ]);
 
 const editorial_team = ref([
   {
     name: "Ali Ravjani",
-    headshot: "nuxt/assets/images/team/2023/editorial/e1.png",
+    headshot: "team/2023/editorial/e1.png",
   },
   {
     name: "Ansh Farmah",
-    headshot: "nuxt/assets/images/team/2023/editorial/e2.png",
+    headshot: "team/2023/editorial/e2.png",
   },
   {
     name: "Katarina Miovcic",
-    headshot: "nuxt/assets/images/team/2023/editorial/e3.png",
+    headshot: "team/2023/editorial/e3.png",
   },
   {
     name: "Manu Krishna",
-    headshot: "nuxt/assets/images/team/2023/editorial/e4.png",
+    headshot: "team/2023/editorial/e4.png",
   },
   {
     name: "Sophie Hsieh",
-    headshot: "nuxt/assets/images/team/2023/editorial/e5.png",
+    headshot: "team/2023/editorial/e5.png",
   },
   {
     name: "Alex Zhu",
-    headshot: "nuxt/assets/images/team/2023/editorial/e6.png",
+    headshot: "team/2023/editorial/e6.png",
   },
   {
     name: "Arnav Sheth",
-    headshot: "nuxt/assets/images/team/2023/editorial/e7.png",
+    headshot: "team/2023/editorial/e7.png",
   },
 ]);
 
 const creative_team = ref([
   {
     name: "Viviana Basurt",
-    headshot: "nuxt/assets/images/team/2023/creative/c1.png",
+    headshot: "team/2023/creative/c1.png",
   },
   {
     name: "Nirva Bharwada",
-    headshot: "nuxt/assets/images/team/2023/creative/c2.png",
+    headshot: "team/2023/creative/c2.png",
   },
   {
     name: "Pramiya Arulraj",
-    headshot: "nuxt/assets/images/team/2023/creative/c3.png",
+    headshot: "team/2023/creative/c3.png",
   },
   {
     name: "Yukttha Siva",
-    headshot: "nuxt/assets/images/team/2023/creative/c4.png",
+    headshot: "team/2023/creative/c4.png",
   },
 ]);
 

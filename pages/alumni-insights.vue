@@ -2,10 +2,10 @@
   <Header />
   <div class="container-fluid header p-0 overflow-hidden">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
+      <div class="col-2"></div>
+      <div class="col-8">
         <div>
-          <h2 class="margin-bottom">ALUMNI INSIGHTS</h2>
+          <h2 class="margin-bottom">Alumni Insights</h2>
         </div>
 
         <div class="article-list">
@@ -19,7 +19,7 @@
           />
         </div>
       </div>
-      <div class="col-1"></div>
+      <div class="col-2"></div>
     </div>
   </div>
 </template>

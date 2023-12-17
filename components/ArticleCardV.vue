@@ -22,7 +22,7 @@ const props = defineProps({
   blurb: String,
 });
 const imageUrl = props.coverPath;
-const test = import(`./assets/articles/${props.coverPath}.png`);
+const test = import(`./assets/${props.coverPath}.png`);
 console.log(test);
 
 // function getImageUrl() {
@@ -31,7 +31,7 @@ console.log(test);
 //   return new URL(`@/assets/articles/${props.coverPath}`, import.meta.url);
 // }
 
-import coverSrc from "@/assets/articles/fall-2022/covers/dd-cover.png";
+
 // defineProps(["coverPath", "title", "type", "term", "authors", "creatives"]);
 </script>
 

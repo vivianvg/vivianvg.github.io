@@ -3,8 +3,8 @@
 
   <div class="container-fluid header p-0 overflow-hidden">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
+      <div class="col-2"></div>
+      <div class="col-8">
         <div class="row"><h2 class="margin-bottom">Recent Posts</h2></div>
         <div class="row">
           <ArticleCardV
@@ -19,7 +19,7 @@
           />
         </div>
       </div>
-      <div class="col-1"></div>
+      <div class="col-2"></div>
     </div>
   </div>
 </template>

@@ -2,8 +2,8 @@
   <Header />
   <div class="container-fluid header p-0 overflow-hidden">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
+      <div class="col-2"></div>
+      <div class="col-8">
         <div class="row"><h2 class="margin-bottom">PUBLICATIONS</h2></div>
         <div class="row">
           <ArticleCardV
@@ -14,11 +14,11 @@
             creatives="Viviana Basurto"
             ><img
               class="article-cover"
-              src="@/assets/articles/fall-2022/covers/dd-cover.png"
+              src="@/assets/fall-2022/covers/dd-cover.png"
           /></ArticleCardV>
         </div>
       </div>
-      <div class="col-1"></div>
+      <div class="col-2"></div>
     </div>
   </div>
 </template>

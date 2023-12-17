@@ -1,0 +1,19 @@
+term ***insert here***
+title ***insert here***
+authors ***insert here***
+creatives ***insert here***
+
+blurb
+***insert here***
+
+cover-path
+***insert here***
+
+intext-folder-path
+ ***insert here***
+
+full-text (add [#1] for where graphics should appear, corresponding to file number)
+
+
+
+

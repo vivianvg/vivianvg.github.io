@@ -2,11 +2,11 @@
   <Header />
   <div class="container-fluid header p-0 overflow-hidden">
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
-        <h2 class="margin-bottom">ENTREPRENEURSHIP</h2>
+      <div class="col-2"></div>
+      <div class="col-8">
+        <h2 class="margin-bottom">Entrepreneurship</h2>
       </div>
-      <div class="col-1"></div>
+      <div class="col-2"></div>
     </div>
   </div>
 </template>

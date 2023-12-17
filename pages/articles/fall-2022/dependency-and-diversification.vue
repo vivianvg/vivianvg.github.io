@@ -1,13 +1,12 @@
 <template>
   <ArticlePage
-    title="Dependency and Diversification: Keys to Success for Single Export Nations"
-    type="BUSINESS STRATEGY"
+    title="The Digital Recession"
+    type="TECHNOLOGY"
     term="F22"
-    authors="Luka Pavlesen, Manu Krishna"
-    creatives="Viviana Basurto"
+    authors="Lakshya Balchandani, Vivian Guo, Ali Ravjani"
+    creatives="Devena Mohabir"
     blurb=""
   >
-    content?
   </ArticlePage>
 </template>
 
