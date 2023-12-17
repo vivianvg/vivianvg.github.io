@@ -3,7 +3,7 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "ArticleCardH.a36044d6.css",
+    "file": "ArticleCardH.48d5967b.css",
     "src": "ArticleCardH.css"
   },
   "ArticleCardV.css": {
@@ -24,30 +24,30 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "Header.200f58e6.css",
+    "file": "Header.8b238fa0.css",
     "src": "Header.css"
   },
-  "_ArticleCardH.3e7b0a27.js": {
+  "_ArticleCardH.99c6dbb4.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "css": [
-      "ArticleCardH.a36044d6.css"
+      "ArticleCardH.48d5967b.css"
     ],
-    "file": "ArticleCardH.3e7b0a27.js",
+    "file": "ArticleCardH.99c6dbb4.js",
     "imports": [
-      "_nuxt-link.a76d19e3.js",
+      "_nuxt-link.a6103f10.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "ArticleCardH.a36044d6.css": {
-    "file": "ArticleCardH.a36044d6.css",
+  "ArticleCardH.48d5967b.css": {
+    "file": "ArticleCardH.48d5967b.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
   },
-  "_ArticleCardV.99060341.js": {
+  "_ArticleCardV.ba0c035b.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -55,7 +55,7 @@ const client_manifest = {
     "css": [
       "ArticleCardV.183541fd.css"
     ],
-    "file": "ArticleCardV.99060341.js",
+    "file": "ArticleCardV.ba0c035b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -66,7 +66,7 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_ArticlePage.2b2add49.js": {
+  "_ArticlePage.c889b8b4.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -74,9 +74,9 @@ const client_manifest = {
     "css": [
       "ArticlePage.f08db769.css"
     ],
-    "file": "ArticlePage.2b2add49.js",
+    "file": "ArticlePage.c889b8b4.js",
     "imports": [
-      "_Header.48d981f0.js",
+      "_Header.ea67a4fc.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -86,7 +86,7 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_Header.48d981f0.js": {
+  "_Header.ea67a4fc.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -95,16 +95,16 @@ const client_manifest = {
       "wbr-logo.3c6b6f0f.svg"
     ],
     "css": [
-      "Header.200f58e6.css"
+      "Header.8b238fa0.css"
     ],
-    "file": "Header.48d981f0.js",
+    "file": "Header.ea67a4fc.js",
     "imports": [
-      "_nuxt-link.a76d19e3.js",
+      "_nuxt-link.a6103f10.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "Header.200f58e6.css": {
-    "file": "Header.200f58e6.css",
+  "Header.8b238fa0.css": {
+    "file": "Header.8b238fa0.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -115,33 +115,33 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/svg+xml"
   },
-  "_index.5277eecb.js": {
+  "_index.18a7266f.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.5277eecb.js",
+    "file": "index.18a7266f.js",
     "imports": [
-      "_vue.f36acd1f.64f3a88e.js",
+      "_vue.f36acd1f.1d48aefa.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_nuxt-link.a76d19e3.js": {
+  "_nuxt-link.a6103f10.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.a76d19e3.js",
+    "file": "nuxt-link.a6103f10.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_vue.f36acd1f.64f3a88e.js": {
+  "_vue.f36acd1f.1d48aefa.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.64f3a88e.js",
+    "file": "vue.f36acd1f.1d48aefa.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -173,10 +173,10 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.b487e88b.js",
+    "file": "error-404.0a002a08.js",
     "imports": [
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js",
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -201,9 +201,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.dedfe71a.js",
+    "file": "error-500.26823d0a.js",
     "imports": [
-      "_vue.f36acd1f.64f3a88e.js",
+      "_vue.f36acd1f.1d48aefa.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -224,7 +224,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.3fdeeb37.js",
+    "file": "entry.39ea9ba3.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -234,13 +234,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "about.37508388.js",
+    "file": "about.c8d30654.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_index.5277eecb.js",
+      "_Header.ea67a4fc.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/about.vue"
@@ -250,14 +250,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "alumni-insights.f0abe308.js",
+    "file": "alumni-insights.19fc840a.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_ArticleCardV.99060341.js",
-      "_index.5277eecb.js",
+      "_Header.ea67a4fc.js",
+      "_ArticleCardV.ba0c035b.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/alumni-insights.vue"
@@ -267,12 +267,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "dependency-and-diversification.8827ff71.js",
+    "file": "dependency-and-diversification.26b95190.js",
     "imports": [
-      "_ArticlePage.2b2add49.js",
+      "_ArticlePage.c889b8b4.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Header.48d981f0.js",
-      "_nuxt-link.a76d19e3.js"
+      "_Header.ea67a4fc.js",
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/articles/fall-2022/dependency-and-diversification.vue"
@@ -282,12 +282,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "meta-an-end-over-the-horizon.6f218c5a.js",
+    "file": "meta-an-end-over-the-horizon.a00b71ed.js",
     "imports": [
-      "_ArticlePage.2b2add49.js",
+      "_ArticlePage.c889b8b4.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Header.48d981f0.js",
-      "_nuxt-link.a76d19e3.js"
+      "_Header.ea67a4fc.js",
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/articles/fall-2022/meta-an-end-over-the-horizon.vue"
@@ -297,12 +297,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "tesla-the-future-of-the-electrical-industry.e4278611.js",
+    "file": "tesla-the-future-of-the-electrical-industry.f708cd5d.js",
     "imports": [
-      "_ArticlePage.2b2add49.js",
+      "_ArticlePage.c889b8b4.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Header.48d981f0.js",
-      "_nuxt-link.a76d19e3.js"
+      "_Header.ea67a4fc.js",
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/articles/fall-2022/tesla-the-future-of-the-electrical-industry.vue"
@@ -312,12 +312,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "the-crisis-of-greed-russian-ukrainian-war.156d7f82.js",
+    "file": "the-crisis-of-greed-russian-ukrainian-war.3c04eb1b.js",
     "imports": [
-      "_ArticlePage.2b2add49.js",
+      "_ArticlePage.c889b8b4.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Header.48d981f0.js",
-      "_nuxt-link.a76d19e3.js"
+      "_Header.ea67a4fc.js",
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/articles/fall-2022/the-crisis-of-greed-russian-ukrainian-war.vue"
@@ -327,12 +327,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "the-digital-recession.19a1400c.js",
+    "file": "the-digital-recession.ad61bf9f.js",
     "imports": [
-      "_ArticlePage.2b2add49.js",
+      "_ArticlePage.c889b8b4.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Header.48d981f0.js",
-      "_nuxt-link.a76d19e3.js"
+      "_Header.ea67a4fc.js",
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/articles/fall-2022/the-digital-recession.vue"
@@ -350,14 +350,14 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "business-strategy.2a2bdaef.js",
+    "file": "business-strategy.651a1dd2.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_ArticleCardH.3e7b0a27.js",
-      "_index.5277eecb.js",
+      "_Header.ea67a4fc.js",
+      "_ArticleCardH.99c6dbb4.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/business-strategy.vue"
@@ -373,13 +373,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "contact.09ea8057.js",
+    "file": "contact.6124b9a2.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_index.5277eecb.js",
+      "_Header.ea67a4fc.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/contact.vue"
@@ -389,13 +389,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "entrepreneurship.621480c0.js",
+    "file": "entrepreneurship.9aafc8e1.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_index.5277eecb.js",
+      "_Header.ea67a4fc.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/entrepreneurship.vue"
@@ -405,12 +405,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.aa1f07c7.js",
+    "file": "index.af997271.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_ArticleCardV.99060341.js",
+      "_Header.ea67a4fc.js",
+      "_ArticleCardV.ba0c035b.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js"
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"
@@ -423,14 +423,14 @@ const client_manifest = {
     "assets": [
       "dd-cover.252333dc.png"
     ],
-    "file": "publications.3c71ec06.js",
+    "file": "publications.d68880cf.js",
     "imports": [
-      "_ArticleCardV.99060341.js",
-      "_index.5277eecb.js",
+      "_ArticleCardV.ba0c035b.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Header.48d981f0.js",
-      "_vue.f36acd1f.64f3a88e.js",
-      "_nuxt-link.a76d19e3.js"
+      "_Header.ea67a4fc.js",
+      "_vue.f36acd1f.1d48aefa.js",
+      "_nuxt-link.a6103f10.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/publications.vue"
@@ -454,13 +454,13 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "team.ca58b999.js",
+    "file": "team.88fe7261.js",
     "imports": [
-      "_Header.48d981f0.js",
+      "_Header.ea67a4fc.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_index.5277eecb.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_index.18a7266f.js",
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/team.vue"
@@ -484,14 +484,14 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "technology.4978c5d0.js",
+    "file": "technology.30c49505.js",
     "imports": [
-      "_Header.48d981f0.js",
-      "_ArticleCardH.3e7b0a27.js",
-      "_index.5277eecb.js",
+      "_Header.ea67a4fc.js",
+      "_ArticleCardH.99c6dbb4.js",
+      "_index.18a7266f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.a76d19e3.js",
-      "_vue.f36acd1f.64f3a88e.js"
+      "_nuxt-link.a6103f10.js",
+      "_vue.f36acd1f.1d48aefa.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/technology.vue"

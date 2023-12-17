@@ -22,6 +22,19 @@
     </div>
 
     <div class="navigation-side">
+      <div class="navigation-mobile">
+        <NuxtLink to="/alumni-insights">Alumni Insights</NuxtLink>
+      </div>
+      <div class="navigation-mobile">
+        <NuxtLink to="/business-strategy">Business Strategy</NuxtLink>
+      </div>
+      <div class="navigation-mobile">
+        <NuxtLink to="/entrepreneurship">Entrepreneurship</NuxtLink>
+      </div>
+      <div class="navigation-mobile">
+        <NuxtLink to="/technology">Technology</NuxtLink>
+      </div>
+      <hr class="navigation-mobile" />
       <div><NuxtLink to="/about">About</NuxtLink></div>
       <div><NuxtLink to="/team">Team</NuxtLink></div>
       <div><NuxtLink to="/publications">Publications</NuxtLink></div>
@@ -164,5 +177,29 @@ a:hover {
 
 #close-sidebar-button {
   margin-top: 0rem;
+}
+
+/* Media queries for navigation bar */
+@media (max-width: 992px) {
+  .navigation {
+    display: none;
+  }
+  .navigation-mobile {
+    display: flex;
+    /* justify-content: flex-end; */
+  }
+  #toggle_sidemenu {
+    display: none;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) {
+  .navigation {
+    display: flex;
+  }
+  .navigation-mobile {
+    display: none;
+  }
 }
 </style>

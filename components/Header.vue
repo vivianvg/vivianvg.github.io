@@ -38,37 +38,54 @@
         </div>
       </div>
       <!-- Logo -->
-      <div class="col-2">
-        <a class="no-style" href="/"
+      <div class="col-1">
+        <!-- mobile side menu -->
+        <div class="navigation-mobile">
+          <a
+            href="#"
+            @click="toggleSidebar()"
+            class="sidemenu_button icon-link"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon feather feather-menu"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </a>
+        </div>
+        <!-- logo -->
+        <div class="logo-container hide-on-mobile">
+          <a href="/"
+            ><img src="~/assets/images/logo/wbr-logo.svg" class="logo"
+          /></a>
+        </div>
+      </div>
+      <!-- Logo on mobile view -->
+      <div class="logo-container col-2 navigation-mobile">
+        <a href="/"
           ><img src="~/assets/images/logo/wbr-logo.svg" class="logo"
         /></a>
       </div>
       <!-- Navigation -->
       <div class="col-8 navigation display-on-large">
+        <!-- Full navigation -->
         <NuxtLink to="/alumni-insights">ALUMNI INSIGHT</NuxtLink>
         <NuxtLink to="/business-strategy">BUSINESS STRATEGY</NuxtLink>
         <NuxtLink to="/entrepreneurship">ENTREPRENEURSHIP</NuxtLink>
         <NuxtLink to="/technology">TECHNOLOGY</NuxtLink>
       </div>
       <div class="col-8 navigation-mobile">
-        <a href="#" @click="toggleSidebar()" class="sidemenu_button icon-link">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="icon feather feather-menu"
-          >
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </a>
         <div class="toggled_menu"></div>
       </div>
       <div class="col-1"></div>
@@ -150,10 +167,17 @@ a:hover:after {
     display: none;
   }
   .navigation-mobile {
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
+    /* justify-content: flex-end; */
+  }
+  .logo-container {
+    display: inline-block;
+    /* justify-content: flex-start; */
   }
   #toggle_sidemenu {
+    display: none;
+  }
+  .hide-on-mobile {
     display: none;
   }
 }

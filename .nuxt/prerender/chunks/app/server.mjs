@@ -491,7 +491,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/about-e3ae3461.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/about-9898fb6f.mjs').then((m) => m.default || m)
   },
   {
     name: "alumni-insights",
@@ -499,7 +499,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/alumni-insights-2f62e307.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/alumni-insights-1d23e53a.mjs').then((m) => m.default || m)
   },
   {
     name: "articles-fall-2022-dependency-and-diversification",
@@ -507,7 +507,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/dependency-and-diversification-f79d7a22.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/dependency-and-diversification-c36ab6e3.mjs').then((m) => m.default || m)
   },
   {
     name: "articles-fall-2022-meta-an-end-over-the-horizon",
@@ -515,7 +515,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/meta-an-end-over-the-horizon-5e5db525.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/meta-an-end-over-the-horizon-fe683bfd.mjs').then((m) => m.default || m)
   },
   {
     name: "articles-fall-2022-tesla-the-future-of-the-electrical-industry",
@@ -523,7 +523,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/tesla-the-future-of-the-electrical-industry-62a1a1d7.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/tesla-the-future-of-the-electrical-industry-d82e3655.mjs').then((m) => m.default || m)
   },
   {
     name: "articles-fall-2022-the-crisis-of-greed-russian-ukrainian-war",
@@ -531,7 +531,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/the-crisis-of-greed-russian-ukrainian-war-78cefc0c.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/the-crisis-of-greed-russian-ukrainian-war-55da7c18.mjs').then((m) => m.default || m)
   },
   {
     name: "articles-fall-2022-the-digital-recession",
@@ -539,7 +539,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/the-digital-recession-4febf8c1.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/the-digital-recession-641f1302.mjs').then((m) => m.default || m)
   },
   {
     name: "business-strategy",
@@ -547,7 +547,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/business-strategy-bdf7b525.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/business-strategy-332f67e7.mjs').then((m) => m.default || m)
   },
   {
     name: "contact",
@@ -555,7 +555,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/contact-59e4c5c3.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/contact-0742af42.mjs').then((m) => m.default || m)
   },
   {
     name: "entrepreneurship",
@@ -563,7 +563,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/entrepreneurship-18d4a21f.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/entrepreneurship-88d5a7cd.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -571,7 +571,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/index-aa9633f1.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/index-d059729a.mjs').then((m) => m.default || m)
   },
   {
     name: "publications",
@@ -579,7 +579,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/publications-cc65f5bb.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/publications-1d3821a2.mjs').then((m) => m.default || m)
   },
   {
     name: "team",
@@ -587,7 +587,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/team-ddfbc059.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/team-31bfd629.mjs').then((m) => m.default || m)
   },
   {
     name: "technology",
@@ -595,7 +595,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./nuxt/technology-b80a27d3.mjs').then((m) => m.default || m)
+    component: () => import('./nuxt/technology-97d6e06f.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {
