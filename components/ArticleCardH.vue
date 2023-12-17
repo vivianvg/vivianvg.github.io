@@ -30,7 +30,7 @@
 
 <script setup>
 const props = defineProps({
-  id: Number,
+  id: String,
   coverPath: String,
   title: String,
   type: String,

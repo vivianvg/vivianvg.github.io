@@ -22,10 +22,10 @@
     </div>
 
     <div class="navigation-side">
-      <div><NuxtLink to="/about">ABOUT</NuxtLink></div>
-      <div><NuxtLink to="/team">TEAM</NuxtLink></div>
-      <div><NuxtLink to="/publications">PUBLICATIONS</NuxtLink></div>
-      <div><NuxtLink to="/contact">CONTACT</NuxtLink></div>
+      <div><NuxtLink to="/about">About</NuxtLink></div>
+      <div><NuxtLink to="/team">Team</NuxtLink></div>
+      <div><NuxtLink to="/publications">Publications</NuxtLink></div>
+      <div><NuxtLink to="/contact">Contact</NuxtLink></div>
     </div>
 
     <div class="socials">
