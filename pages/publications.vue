@@ -1,11 +1,16 @@
 <template>
   <Header />
   <div class="container-fluid header p-0 overflow-hidden">
+    <!-- <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8"><h2>Publications</h2></div>
+      <hr id="top-hr" />
+    </div> -->
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <div class="row"><h2 class="margin-bottom">PUBLICATIONS</h2></div>
         <div class="row">
+          <div class="margin-bottom"><h2>Publications</h2></div>
           <ArticleCardV
             title="Dependency and Diversification: Keys to Success for Single Export Nations"
             type="Business Strategy"

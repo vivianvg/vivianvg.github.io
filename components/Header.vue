@@ -66,14 +66,14 @@
         </div>
         <!-- logo -->
         <div class="logo-container hide-on-mobile">
-          <a href="/"
+          <a class="no-style" href="/"
             ><img src="~/assets/images/logo/wbr-logo.svg" class="logo"
           /></a>
         </div>
       </div>
       <!-- Logo on mobile view -->
       <div class="logo-container col-2 navigation-mobile">
-        <a href="/"
+        <a class="no-style" href="/"
           ><img src="~/assets/images/logo/wbr-logo.svg" class="logo"
         /></a>
       </div>
@@ -90,6 +90,16 @@
       </div>
       <div class="col-1"></div>
     </div>
+    <hr />
+    <div class="row">
+      <div class="navigation navigation-secondary col-8">
+        <NuxtLink to="/alumni-insights">ALUMNI INSIGHT</NuxtLink>
+        <NuxtLink to="/business-strategy">BUSINESS STRATEGY</NuxtLink>
+        <NuxtLink to="/entrepreneurship">ENTREPRENEURSHIP</NuxtLink>
+        <NuxtLink to="/technology">TECHNOLOGY</NuxtLink>
+      </div>
+    </div>
+    <hr />
   </div>
 </template>
 
@@ -113,6 +123,9 @@ export default {
 </script>
 
 <style scoped>
+hr {
+  margin: 0.6rem;
+}
 .hidden {
   visibility: hidden;
 }
@@ -143,15 +156,22 @@ a:hover:after {
 }
 .navigation {
   display: flex;
+  margin: auto;
   justify-content: flex-end;
   flex-wrap: wrap;
   column-gap: 2.2rem;
 }
 .navigation * {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: var(--l-text);
+}
+
+.navigation-secondary {
+  font-size: 0.5rem;
+  justify-content: space-evenly;
+  column-gap: 1rem;
 }
 
 .sidebar-opened {

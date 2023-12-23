@@ -3,9 +3,12 @@
   <div class="container-fluid header p-0 overflow-hidden">
     <div class="row">
       <div class="col-2"></div>
+      <div class="col-8"><h2>Business Strategy</h2></div>
+      <hr id="top-hr" />
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
       <div class="col-8">
-        <div><h2 class="margin-bottom">Business Strategy</h2></div>
-        <hr />
         <div class="article-list">
           <div class="article-list-item" v-for="article in articles">
             <ArticleCardH
@@ -91,6 +94,9 @@ const articles = ref([
 </script>
 
 <style scoped>
+#top-hr {
+  margin-top: 0.4rem;
+}
 hr {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;

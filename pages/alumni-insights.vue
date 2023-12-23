@@ -3,11 +3,12 @@
   <div class="container-fluid header p-0 overflow-hidden">
     <div class="row">
       <div class="col-2"></div>
+      <div class="col-8"><h2>Alumni Insights</h2></div>
+      <hr id="top-hr" />
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
       <div class="col-8">
-        <div>
-          <h2 class="margin-bottom">Alumni Insights</h2>
-        </div>
-
         <div class="article-list">
           <ArticleCardV
             cover-path="/assets/fall-2022/covers/crisis-cover.png"
@@ -34,4 +35,8 @@ useSeoMeta({
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#top-hr {
+  margin-top: 0.4rem;
+}
+</style>
